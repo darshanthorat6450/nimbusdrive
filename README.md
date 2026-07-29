@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="screenshots/screenshots/dashboard-overview.png" alt="NimbusDrive banner" width="100%"/>
+
 
 # ☁️ NimbusDrive
 
@@ -47,22 +47,22 @@ The entire system is deployed across managed cloud services rather than a single
 ## 🖼️ Screenshots
 
 ### Sign In
-<img src="./screenshots/auth-signin.png" alt="Sign In page" width="600"/>
+<img src="screenshots/screenshots/auth-signin.png" alt="Sign In page" width="600"/>
 
 ### Dashboard — Storage Overview
-<img src="./screenshots/dashboard-overview.png" alt="Dashboard overview" width="800"/>
+<img src="screenshots/screenshots/dashboard-overview.png" alt="Dashboard overview" width="800"/>
 
 ### File Manager
-<img src="./screenshots/file-manager.png" alt="File manager view" width="800"/>
+<img src="screenshots/screenshots/file-manager.png" alt="File manager view" width="800"/>
 
 ### Sidebar Navigation
-<img src="./screenshots/sidebar-navigation.png" alt="Sidebar navigation" width="500"/>
+<img src="screenshots/screenshots/sidebar-navigation.png" alt="Sidebar navigation" width="500"/>
 
 ### Share File Modal
-<img src="./screenshots/share-file-modal.png" alt="Share file modal" width="600"/>
+<img src="screenshots/screenshots/sidebar-navigation.png" alt="Share file modal" width="600"/>
 
 ### Publicly Shared Files Page
-<img src="./screenshots/shared-files-page.png" alt="Shared files page" width="600"/>
+<img src="screenshots/screenshots/shared-files-page.png" alt="Shared files page" width="600"/>
 
 ---
 
@@ -80,12 +80,12 @@ The entire system is deployed across managed cloud services rather than a single
 
 ### AWS Infrastructure in Action
 
-<img src="./screenshots/aws-console-home.png" alt="AWS Console home" width="800"/>
+<img src="screenshots/screenshots/aws-console-home.png" alt="AWS Console home" width="800"/>
 
 **Amazon S3** — every user gets an isolated folder (keyed by UUID) inside the storage bucket for their uploaded files.
 
-<img src="./screenshots/aws-s3-bucket.png" alt="S3 bucket objects" width="800"/>
-<img src="./screenshots/aws-s3-objects.png" alt="S3 bucket per-user folders" width="800"/>
+<img src="screenshots/screenshots/aws-s3-bucket.png" alt="S3 bucket objects" width="800"/>
+<img src="screenshots/screenshots/aws-s3-objects.png" alt="S3 bucket per-user folders" width="800"/>
 
 **Amazon DynamoDB** — three core tables power the application:
 
@@ -95,8 +95,8 @@ The entire system is deployed across managed cloud services rather than a single
 | `nimbus-files` | `userId` (S) | `fileId` (S) | Tracks metadata for every uploaded file |
 | `nimbus-shares` | `shareId` (S) | – | Manages share links, expiry, and linked files |
 
-<img src="./screenshots/aws-dynamodb-tables.png" alt="DynamoDB tables" width="800"/>
-<img src="./screenshots/aws-dynamodb-shares.png" alt="DynamoDB shares table items" width="800"/>
+<img src="screenshots/screenshots/aws-dynamodb-tables.png" alt="DynamoDB tables" width="800"/>
+<img src="screenshots/screenshots/aws-dynamodb-shares.png" alt="DynamoDB shares table items" width="800"/>
 
 > 🔒 **Note:** Credentials, password hashes, and personal user data shown during development have been excluded from this README. Never commit real `.env` values, access keys, or database exports to a public repository.
 
