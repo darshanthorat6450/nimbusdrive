@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./screenshots/dashboard-overview.png" alt="NimbusDrive banner" width="100%"/>
+<img src="screenshots/screenshots/dashboard-overview.png" alt="NimbusDrive banner" width="100%"/>
 
 # ☁️ NimbusDrive
 
