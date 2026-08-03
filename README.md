@@ -1,7 +1,4 @@
 <div align="center">
-
-
-
 # ☁️ NimbusDrive
 
 ### AI-Powered Cloud Storage Platform
